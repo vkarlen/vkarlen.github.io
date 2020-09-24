@@ -2,6 +2,18 @@ html {
   font-size: 10px;
 }
 
+.header { 
+  text-align:center;
+}
+
+.summary {
+ text-align:center; 
+}
+
+.main {
+  
+}
+
 h1 {
   color: DarkOliveGreen;
   font-family: 'Bodoni', serif;
