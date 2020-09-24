@@ -2,6 +2,10 @@ html {
   font-size: 12px;
 }
 
+.body { 
+  margin: 5px;
+}
+
 .header { 
   text-align:center;
 }
