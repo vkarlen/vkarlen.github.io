@@ -45,3 +45,7 @@ p {
   width: 25%;
   border; 6px solid white;
 }
+
+#hs {
+ display: inline; 
+}
