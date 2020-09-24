@@ -36,6 +36,7 @@ p {
 
 #pic {
   float: right;
-  height: 300px;
-  width: 200px;
+  height: 10%;
+  width: 10%;
+  border; 3px solid white;
 }
