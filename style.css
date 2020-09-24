@@ -1,13 +1,13 @@
 html {
   font-size: 12px;
-  background-color: grey;
+  background-color: #333333;
 }
 
 .body { 
   padding: 40px;
   margin: 30px;
   border: 2px solid black;
-  background-color: white;
+  background-color: #EEEEEE;
 }
 
 .header { 
