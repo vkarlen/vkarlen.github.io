@@ -18,20 +18,21 @@ html {
  text-align:center; 
 }
 
-.main {
-  
+.edu {
+  display: inline;
 }
 
 h1 {
   color: DarkOliveGreen;
-  font-family: 'Bodoni', serif;
+  font-family: Georgia,serif;
   font-size: 4rem;
 }
 
 h2 {
   font-variant: small-caps;
-  font-family: 'Bodoni', serif;
+  font-family: Georgia, serif;
   font-size: 2rem;
+  text-align: center;
 }
 
 p {
