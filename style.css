@@ -6,7 +6,7 @@ html {
 .body { 
   padding: 40px;
   margin: 100px;
-  border: 2px solid black;
+  border: 4px solid black;
   background-color: #EEEEEE;
 }
 
@@ -20,7 +20,7 @@ html {
 
 .edu p {
   display: inline;
-  align: center;
+  text-align: center;
   margin: 5px;
 }
 
@@ -45,5 +45,5 @@ p {
   float: right;
   width: 25%;
   border: 6px solid white;
-  margin: 10px;
+  margin: 20px;
 }
