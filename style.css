@@ -20,6 +20,8 @@ html {
 
 .edu p {
   display: inline;
+  align: center;
+  margin: 5px;
 }
 
 h1 {
