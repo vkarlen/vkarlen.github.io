@@ -29,3 +29,8 @@ h2 {
 p {
   font-family: Helvetica, sans-serif;
 }
+
+#pic {
+  float: right;
+  height: 200px;
+}
