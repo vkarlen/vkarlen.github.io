@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-  text-transform: uppercase;
+  font-variant: small-caps;
   font-family: 'Bodoni', serif;
   font-size: 2rem;
 }
