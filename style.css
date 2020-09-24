@@ -1,11 +1,17 @@
+html {
+  font-size: 10px;
+}
+
 h1 {
   color: DarkOliveGreen;
   font-family: 'Bodoni', serif;
+  font-size: 4rem;
 }
 
 h2 {
   text-transform: uppercase;
   font-family: 'Bodoni', serif;
+  font-size: 2rem;
 }
 
 p {
