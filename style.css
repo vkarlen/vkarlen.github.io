@@ -18,14 +18,17 @@ html {
  text-align:center; 
 }
 
+.edu {
+text-align:center;  
+}
+
 .edu p {
   display: inline;
-  text-align: center;
   margin: 5px;
 }
 
 h1 {
-  color: DarkOliveGreen;
+  color: Black;
   font-family: Georgia,serif;
   font-size: 4rem;
 }
