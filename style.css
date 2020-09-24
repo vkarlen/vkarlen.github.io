@@ -1,12 +1,13 @@
 h1 {
   color: DarkOliveGreen;
-  font-family: 'Bodoni';
+  font-family: 'Bodoni' serif;
 }
 
 h2 {
   text-transform: uppercase;
+  font-family: 'Bodoni' serif;
 }
 
 p {
-  font-family: 'Nunito';
+  font-family: 'Nunito' sans-serif;
 }
