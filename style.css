@@ -22,13 +22,19 @@ html {
 }
 
 .edu {
-
+  padding: 10px;
 }
 
-.edu p {
-  display: flex;
-  justify-content: center;
-  margin: 5px;
+.hs { 
+  width: 50%;
+  padding:10px;
+  word-wrap: break-word;
+}
+
+.col { 
+  width: 50%;
+  padding:10px;
+  word-wrap: break-word;
 }
 
 h1 {
@@ -55,3 +61,4 @@ p {
   margin: 20px;
   box-shadow: -3px 3px 10px black;
 }
+
