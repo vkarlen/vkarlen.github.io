@@ -26,6 +26,7 @@ html {
 .edu {
   padding: 10px;
   display: flex;
+  justify-content: center;
 }
 
 .hs { 
