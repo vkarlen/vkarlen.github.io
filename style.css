@@ -15,7 +15,7 @@ h1 {
 h2 {
   font-variant: small-caps;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -50,7 +50,8 @@ li {
 }
 
 .edu {
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   display: flex;
   justify-content: center;
 }
@@ -68,7 +69,8 @@ li {
 }
 
 .work { 
-  padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 
