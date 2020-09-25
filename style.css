@@ -33,7 +33,7 @@ html {
 }
 
 .col { 
-  position: right;
+  display: flex;
   width: 50%;
   padding:10px;
   word-wrap: break-word;
