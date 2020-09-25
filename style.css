@@ -27,6 +27,7 @@ li {
   font-family: Tahoma, Geneva, sans-serif;
   margin-left: 5%;
   list-style-type: square;
+  list-style-position: inside;
 }
 
 .body { 
