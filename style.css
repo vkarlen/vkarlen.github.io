@@ -19,23 +19,22 @@ html {
 
 .summary {
  text-align:center; 
-  padding-left: 10%;
+  padding-left: 5%;
   padding-right: 10%;
 }
 
 .edu {
   padding: 10px;
+  display: flex;
 }
 
 .hs { 
-  display: inline;
   width: 25%;
   margin-left: 10%;
   word-wrap: break-word;
 }
 
 .col { 
-  display: inline;
   width: 25%;
   margin-left: 10%;
   word-wrap: break-word;
