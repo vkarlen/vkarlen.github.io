@@ -22,11 +22,12 @@ html {
 }
 
 .edu {
-text-align:center;  
+
 }
 
 .edu p {
   display: flex;
+  justify-content: center;
   margin: 5px;
 }
 
