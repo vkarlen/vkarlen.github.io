@@ -6,6 +6,22 @@ html {
   background-size: cover;
 }
 
+h1 {
+  color: Black;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 4rem;
+}
+
+h2 {
+  font-variant: small-caps;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+p {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
 .body { 
   padding: 55px;
   margin: 150px;
@@ -41,22 +57,10 @@ html {
   word-wrap: break-word;
 }
 
-h1 {
-  color: Black;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 4rem;
+.work { 
+  padding: 5%;
 }
 
-h2 {
-  font-variant: small-caps;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 2rem;
-  text-align: center;
-}
-
-p {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
 
 #pic {
   float: right;
