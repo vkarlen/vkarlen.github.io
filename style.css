@@ -19,7 +19,8 @@ html {
 
 .summary {
  text-align:center; 
-  padding: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .edu {
@@ -27,7 +28,7 @@ html {
 }
 
 .hs { 
-  position: left;
+  display: inline;
   width: 25%;
   margin-left: 10%;
   word-wrap: break-word;
