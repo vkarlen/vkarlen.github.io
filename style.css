@@ -26,14 +26,14 @@ html {
 }
 
 .hs { 
-  float: left;
+  position: left;
   width: 50%;
   padding:10px;
   word-wrap: break-word;
 }
 
 .col { 
-  float: right;
+  position: right;
   width: 50%;
   padding:10px;
   word-wrap: break-word;
