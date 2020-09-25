@@ -43,19 +43,19 @@ html {
 
 h1 {
   color: Black;
-  font-family: Georgia,serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 4rem;
 }
 
 h2 {
   font-variant: small-caps;
-  font-family: Georgia, serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 2rem;
   text-align: center;
 }
 
 p {
-  font-family: Helvetica, sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 #pic {
