@@ -2,6 +2,8 @@ html {
   font-size: 12px;
   background-color: #333333;
   background-image: url("background.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .body { 
