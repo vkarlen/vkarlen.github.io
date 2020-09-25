@@ -27,15 +27,15 @@ html {
 
 .hs { 
   position: left;
-  width: 50%;
-  padding:10px;
+  width: 25%;
+  margin-left: 10%;
   word-wrap: break-word;
 }
 
 .col { 
   display: flex;
-  width: 50%;
-  padding:10px;
+  width: 25%;
+  margin-left: 10%;
   word-wrap: break-word;
 }
 
