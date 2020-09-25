@@ -47,7 +47,7 @@ p {
 #pic {
   float: right;
   width: 25%;
-  border: 6px solid white;
+  border: 10px solid white;
   margin: 20px;
   box-shadow: -3px 3px 10px black;
 }
