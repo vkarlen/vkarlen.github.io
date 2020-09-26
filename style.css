@@ -9,7 +9,7 @@ html {
 h1 {
   color: Black;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 5rem;
+  font-size: 4.75rem;
 }
 
 h2 {
@@ -31,7 +31,10 @@ li {
 }
 
 .body { 
-  padding: 55px;
+  padding-top: 35px;
+  padding-bottom: 55px;
+  padding-left: 55px;
+  padding-right: 55px;
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 150px;
