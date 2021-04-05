@@ -1,74 +1,422 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icon Imports -->
+    <script
+      src="https://kit.fontawesome.com/f92f496057.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Telex&family=Ubuntu:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap & jQuery -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <script src="js/jquery.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS & JS -->
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="index.css" />
+
     <title>Vada Karlen</title>
-    <link rel="stylesheet" href="style.css"/>
   </head>
-  
+
   <body>
-    <img src="picture.jpg" id="pic">
-    <div class="body">
-      <div class="header">
-        <h1>Vada Karlen</h1>
-        <p><i>651.500.0170 | 1092 W James Ave. St Paul, MN | Vada.Karlen@gmail.com</i></P>
+    <nav class="container-fluid" id="navigation">
+      <div class="row justify-content-between">
+        <div class="col-12 col-md-6 col-lg-5 col-xl-4" id="links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+        </div>
+
+        <div class="col-xs-12 col-md-4 col-lg-3" id="contact-icons">
+          <a href="https://www.linkedin.com/in/vadak/"
+            ><i class="fab fa-linkedin fa-2x fa-fw"></i
+          ></a>
+          <a href="https://github.com/vkarlen"
+            ><i class="fab fa-github fa-2x fa-fw"></i
+          ></a>
+          <a href="mailto:vada.karlen@gmail.com"
+            ><i class="fas fa-envelope fa-2x fa-fw"></i
+          ></a>
+        </div>
       </div>
-    <hr>
-    
-    <div class="summary">
-      <h2>Summary</h2>
-      <p><b>If you are searching for a hard-working, detail oriented employee, I am your candidate. I am highly organized, analytical, and a quick learner. I work well both independently and as a team player. My reputation for excellent customer service, both internal and external, has served every company I have worked for.</b></p>
-    </div>
-    
-    <br>
-    
-    <div class="work">
-      <h2>Work Experience</h2>
-      <p><b>American Distribution and Manufacturing Company</b> - Cottage Grove, MN</p>
-      <p style="padding-left:2%">Inside Sales Representative | November 2019 - Present</p>
-      <ul>
-        <li><b>Swiftly and accurately entered lengthy orders.</b> Managed time and prioritized clients and tasks to meet daily deadlines to ensure that stores received their orders in a timely fashion.</li>
-        <li><b>Worked directly with customers to meet their needs.</b> Ensured they had accurate information for their orders and assisted in finding the perfect products for their customers. Recognized and prioritized urgent needs and offer solutions rapidly to ensure seamless service.</li>
-        <li><b>Worked cross-departmentally to bridge gaps in resources,</b> both short and long term.</li>
-      </ul>
-      
-      <br>
-      
-      <p><b>Chuck & Don's Pet Food & Supply</B> - Mahtomedi, MN</p>
-      <p style="padding-left:2%">Inventory Specialist | June 2018 - November 2019</p>
-      <ul>
-        <li><b>Research and analyzed sales for all 48 stores. </b>Adjusted inventory to fit current sales trends across several product departments. </li>
-        <li><b>Acted as the main corporate contact for 18 stores. </b>Researched and solved any issues that arise. Ran sales analysis as requested. Coordinated multi-store transfers. </li>
-        <li><b>Oversaw company-wide, weekly physical inventories.</b> Followed up with stores and other departments on excessive discrepancies. Summarized and published the results. </li>
-        <li><b>Trained to fill in across all other department tasks.</b></li>
-        <li><b>Managed all incoming phone calls.</b> Transfered calls to the appropriate recipients. Listened to and transcribed customer comments then forwarded them to the correct departments.</li>
-      </ul>
-      <p style="padding-left:2%">Supervisor | May 2015 - June 2018</p>
-      <ul>
-        <li><b>Navigated a fast paced store and grooming environment,</b> balancing excellent customer service and store functions on a daily basis. </li>
-        <li><b>Directly trained and supervised Team Members</b> and delegated tasks to be completed in a timely manner. Followed up to ensure tasks were done accurately.</li>
-        <li><b>Worked directly with customers to meet their needs.</b> Applied knowledge and research to specific pet needs. Perpetually sought further research to keep up with an evolving industry. Clarified complex concepts for customers and coworkers.</li>
-        <li><b>Organized and conducted events.</b> Coordinated multi-rescue, multi-vendor in-store events as well as played an integral part in the success of large corporate events. </li>
-      </ul>
-    </div>
-    
-    <br>
-    
-    <h2>Education</h2>
-    <div class="edu">
-     <div class="hs">
-      <p><b>Mahtomedi High School</b><br>
-Mahtomedi, MN | 2009 - 2013<br>
-        <i>Post Secondary Enrollment Option at Century College taken throughout junior and senior year.</i>
-      </div>
-      
+    </nav>
+
+    <div class="row align-items-center" id="title-container">
       <div class="col">
-      <p id="col"><b>University of Manitoba</b><br>
-Winnipeg, MB | 2013 - 2014<br>
-        <i>Enrolled in the Computer Science program.</i>
+        <h1>Vada Karlen</h1>
+        <hr />
+        <h2>Software Engineer</h2>
+        <p>651.500.0170 | vada.karlen@gmail.com</p>
       </div>
-      </p>
     </div>
+
+    <section id="about" name="about"></section>
+    <div id="about-container">
+      <div class="row justify-contents-center">
+        <div class="col-12 col-md-3" id="img-container">
+          <img src="images/picture.jpg" alt="a picture of me" />
+        </div>
+
+        <div class="col-12 col-md-8">
+          <h2>About</h2>
+          <hr />
+          <p>
+            I am a passionate creator with a drive for solving complex problems
+            and learning new technologies across the whole stack. I have a flair
+            for crafting clean, logical, and, most importantly, legible code.
+            When I manage to tear myself away from my code, I can be found
+            hanging out with my dogs, working on art, playing Animal Crossing or
+            Stardew Valley, and caring for my abundant collection of dying
+            houseplants.
+          </p>
+          <p>Languages: Javascript, SQL, Python, HTML5, & CSS.</p>
+          <p>
+            Tools/Frameworks: React, Redux, Node, AJAX, Express, jQuery, Flask,
+            Jest, Material-UI, Bootstrap, & Git.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="project-container">
+      <section class="containe-fluid" id="projects" name="projects">
+        <h2>Projects</h2>
+        <hr />
+
+        <p>
+          Some projects may take a moment to load as their server starts up.
+        </p>
+
+        <p>
+          To see more of what I'm doing, please visit my
+          <a href="https://github.com/vkarlen"
+            >github <i class="fab fa-github fa-fw"></i
+          ></a>
+        </p>
+
+        <div
+          id="project-slides"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#project-slides"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#project-slides" data-slide-to="1"></li>
+            <li data-target="#project-slides" data-slide-to="2"></li>
+            <li data-target="#project-slides" data-slide-to="3"></li>
+            <li data-target="#project-slides" data-slide-to="4"></li>
+          </ol>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="overlay-image row align-items-center justify-content-center"
+                style="background-image: url(./images/sniffer.png)"
+              >
+                <div class="project-info col-9 col-md-5">
+                  <h3>Sniffer</h3>
+                  <p><i>04/29/21 | 2 week sprint</i></p>
+                  <p>
+                    Sniffer is an application designed to help the average pet
+                    owner manage their pet’s food allergies. With a search that
+                    instantly connects them with a list of foods that fit their
+                    dog’s specific needs and a comparison tool that takes two
+                    foods and finds any overlapping ingredients, Sniffer makes
+                    it easy to quickly zero in on allergies and get your dog on
+                    the path to a happier, healthier life.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-light"
+                    onclick="window.open('https://sniffer-solo.herokuapp.com/#/home')"
+                  >
+                    check it out
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div
+                class="overlay-image row align-items-center justify-content-center"
+                style="background-image: url(./images/background-4.jpg)"
+              >
+                <div class="project-info col-9 col-md-5">
+                  <h3>Conomiks</h3>
+                  <p><i>04/26/21 | 2 week sprint</i></p>
+                  <p>
+                    Conomiks is a Genomics and AI based platform for testing
+                    functional ingredients.
+                  </p>
+                  <button type="button" class="btn btn-outline-light" disabled>
+                    coming soon
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div
+                class="overlay-image row align-items-center justify-content-center"
+                style="background-image: url(./images/feedback.png)"
+              >
+                <div class="project-info col-9 col-md-5">
+                  <h3>Feedback Loop</h3>
+                  <p><i>02/28/21 | 2 day sprint</i></p>
+                  <p>
+                    Multi-page application to gather class feedback. Visit
+                    /admin to review all given feedback.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-light"
+                    onclick="window.open('https://feedback-loops-vk.herokuapp.com/#/')"
+                  >
+                    check it out
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div
+                class="overlay-image row align-items-center justify-content-center"
+                style="background-image: url(./images/background-5.jpg)"
+              >
+                <div class="project-info col-9 col-md-5">
+                  <h3>React Gallery</h3>
+                  <p><i>02/21/21 | 2 day sprint</i></p>
+                  <p>
+                    A React.js photo gallery of a few of my favorite things over
+                    the past few years. Click on an image to see a title and
+                    description. Images can be liked by clicking the heart icon.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-light"
+                    onclick="window.open('https://github.com/vkarlen/react-gallery')"
+                  >
+                    check it out
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div
+                class="overlay-image row align-items-center justify-content-center"
+                style="background-image: url(./images/todolist.png)"
+              >
+                <div class="project-info col-9 col-md-5">
+                  <h3>To-Do List</h3>
+                  <p><i>02/14/21 | 2 day sprint</i></p>
+                  <p>
+                    An easy-to-use to-do app created with Javascript and SQL.
+                    Tasks can be added at the top of the page and given
+                    priority. Completed tasks can be checked off and will show
+                    the date completed in line. If a task is checked off before
+                    it is completed, it can always be brought back by clicking
+                    on the line.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-light"
+                    onclick="window.open('https://sql-to-do-list-vk.herokuapp.com/')"
+                  >
+                    check it out
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a
+            class="carousel-control-prev"
+            href="#project-slides"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#project-slides"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <div id="experience-container">
+      <section class="container" id="experience" name="experience">
+        <h2>Experience</h2>
+        <hr />
+
+        <form id="resume-btn" method="get" action="Vada Karlen_Resume.pdf">
+          <button type="submit" class="btn btn-outline-dark">
+            download my resume
+          </button>
+        </form>
+
+        <div class="row justify-content-center">
+          <div>
+            <h3>Prime Digital Academy — Minneapolis, MN</h3>
+            <p>Full Stack Engineering Student | December 2020 - Present</p>
+            <p>Sniffer</p>
+            <ul>
+              <li>
+                Sniffer is a web app built to help the average pet owner manage
+                their dog’s food allergies and find foods that fit their pup,
+                bridging a major gap in the pet industry.
+              </li>
+              <li>
+                A user can add their dog’s sensitivities to a profile and then
+                pull up a search that easily connects them with foods that fit
+                their exact needs. Additionally, the app supplies a tool that
+                allows the user to compare two foods and highlights any
+                overlapping ingredients.
+              </li>
+              <li>
+                Technologies used: Javascript, React, Redux, PostgreSQL,
+                Express, Node, Material UI
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>
+              American Distribution and Manufacturing Company — Cottage Grove,
+              MN
+            </h3>
+            <p>Inside Sales Representative | November 2019 - January 2021</p>
+            <ul>
+              <li>
+                Swiftly and accurately entered lengthy orders by hand. Managed
+                time and prioritized certain states to meet daily deadlines to
+                ensure that stores received their orders in a timely fashion.
+              </li>
+              <li>
+                Worked directly with customers to meet their needs. Ensured they
+                had accurate information for their orders and assisted in
+                finding the perfect products for their customers. Recognized and
+                prioritized urgent needs and offer solutions rapidly to ensure
+                seamless service.
+              </li>
+              <li>
+                Displayed agility in working cross-departmentally to bridge gaps
+                in resources, both short and long term.
+              </li>
+              <li>
+                Navigated the shift from in office work to remote and continued
+                to work efficiently and effectively while collaborating with my
+                team.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Chuck & Don’s Pet Food & Supply — Mahtomedi, MN</h3>
+            <p>Inventory Specialist | June 2018 - November 2019</p>
+            <ul>
+              <li>
+                Researched and analyzed sales for all 48 stores. Adjusted
+                inventory to fit current sales trends across several product
+                departments.
+              </li>
+              <li>
+                Acted as the main corporate contact for 18 stores. Researched
+                and solved any issues that arose. Ran sales analysis as
+                requested. Coordinated multi-store transfers.
+              </li>
+              <li>
+                Oversaw company-wide, weekly physical inventories. Followed up
+                with stores and other departments on excessive discrepancies.
+                Summarized and published the results.
+              </li>
+              <li>
+                Engineered key projects for the rebranding of our company while
+                on loan to the Marketing Department, and utilized a style guide
+                to redesign outdated coupons, signage, merchandise, and other
+                branded items.
+              </li>
+              <li>Trained to fill in across all other department tasks.</li>
+            </ul>
+          </div>
+
+          <div>
+            <p>Supervisor | May 2015 - June 2018</p>
+            <ul>
+              <li>
+                Navigated a fast paced store and grooming environment, balancing
+                excellent customer service and store functions on a daily basis.
+              </li>
+              <li>
+                Directly trained and supervised Team Members and delegated tasks
+                to be completed in a timely manner. Followed up to ensure tasks
+                were done accurately.
+              </li>
+              <li>
+                Worked directly with customers to meet their needs. Applied
+                knowledge and research to specific pet needs. Perpetually sought
+                further research to keep up with an evolving industry. Clarified
+                complex concepts for customers and coworkers.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="contact-container">
+      <section class="row justify-content-center" id="contact" name="contact">
+        <h2>Want to get in touch?</h2>
+        <hr />
+
+        <p>
+          <a href="https://www.linkedin.com/in/vadak/"
+            ><i class="fab fa-linkedin fa-fw"></i> linkedin.com/in/vadak/</a
+          >
+          |
+          <a href="https://github.com/vkarlen"
+            ><i class="fab fa-github fa-fw"></i> github.com/vkarlen</a
+          >
+          |
+          <a href="mailto:vada.karlen@gmail.com"
+            ><i class="fas fa-envelope fa-fw"></i> vada.karlen@gmail.com</a
+          >
+        </p>
+      </section>
     </div>
   </body>
- </html>
-  
+</html>

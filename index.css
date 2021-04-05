@@ -1,0 +1,198 @@
+body {
+  margin: 0px;
+  font-family: 'Telex', sans-serif;
+  position: relative;
+}
+
+h1,
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  margin: 0px;
+}
+
+hr {
+  width: 45vh;
+  margin: 10px auto;
+}
+
+/* NAV SECTION */
+#navigation {
+  position: sticky;
+  top: 0px;
+  padding: 10px 30px;
+  background-color: #1d1d1d;
+  text-align: center;
+  color: #e4e4e4;
+  z-index: 1;
+}
+
+#links {
+  font-size: 1.4em;
+  margin: 3px;
+}
+
+#contact-icons {
+  margin: 3px;
+}
+
+#navigation a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: #e4e4e4;
+  padding: 10px;
+}
+
+#navigation a:hover {
+  background-color: #161616;
+  color: #6eb0bd;
+}
+
+#navigation a:active {
+  color: #5e97a3;
+}
+
+/* TITLE SECTION */
+#title-container {
+  height: 94vh;
+  background-color: #213133;
+  background-image: url(./images/background-5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #e4e4e4;
+  text-align: center;
+  text-shadow: 0px 0px 3px #000000d8;
+}
+
+#title-container h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 4.7em;
+}
+
+#title-container h2 {
+  letter-spacing: 0.5em;
+  font-size: 1.5em;
+}
+
+#title-container p {
+  font-style: italic;
+  letter-spacing: 0.1em;
+  padding: 10px;
+}
+
+/* ABOUT SECTION */
+#about {
+  padding: 0;
+}
+
+#about-container {
+  background-color: #1d1d1d;
+  color: #e4e4e4;
+  text-align: justify;
+  padding: 25px;
+}
+
+#about-container p {
+  margin: 0px;
+  padding: 15px 50px;
+}
+
+#img-container {
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.5));
+  text-align: center;
+}
+
+#about-container img {
+  width: 100%;
+  max-width: 300px;
+  clip-path: circle(50% at center);
+}
+
+/* PROJECT SECTION */
+#project-container {
+  padding: 25px 0px;
+  text-align: center;
+}
+
+#project-container a {
+  color: #222222;
+  font-style: bold;
+}
+
+#project-container a:hover {
+  color: #6eb0bd;
+}
+
+#project-slides {
+  z-index: 0;
+}
+
+.carousel-item {
+  height: 35rem;
+  background: #222222;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.75;
+}
+
+.project-info {
+  opacity: 1;
+  text-align: center;
+  background: #222222be;
+  color: whitesmoke;
+  padding: 10px 20px;
+  border: 1px solid #e4e4e4;
+}
+
+.project-info h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 2.5em;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 20%;
+  top: 33%;
+  width: 80px;
+}
+
+/* EXPERIENCE SECTION */
+#experience-container {
+  padding: 25px;
+}
+
+#resume-btn {
+  text-align: center;
+  margin: 15px;
+}
+
+/* CONTACT SECTION */
+#contact-container {
+  padding: 25px;
+}
+
+#contact-container p {
+  text-align: center;
+  font-style: italic;
+}
+
+#contact-container a {
+  color: #222222;
+  padding: 7px;
+}
+
+#contact-container a:hover {
+  color: #6eb0bd;
+}
