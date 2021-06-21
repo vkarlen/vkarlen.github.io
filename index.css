@@ -91,7 +91,7 @@ hr {
   background-color: #1d1d1d;
   color: #e4e4e4;
   text-align: justify;
-  padding: 25px;
+  padding: 40px 25px;
 }
 
 #about-container p {
@@ -112,7 +112,7 @@ hr {
 
 /*** --- PROJECT SECTION --- ***/
 #project-container {
-  padding: 25px 0px;
+  padding: 40px 0px;
   text-align: center;
 }
 
@@ -170,7 +170,7 @@ hr {
 
 /*** --- EXPERIENCE SECTION --- ***/
 #experience-container {
-  padding: 25px;
+  padding: 20px 25px;
 }
 
 #resume-btn {
